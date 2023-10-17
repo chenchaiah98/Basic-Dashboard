@@ -8,6 +8,9 @@
   justify-content: space-between;
   overflow-y: hidden;
 }
+.mobile-main-icon-container {
+  display: none;
+}
 .logo-icon-container {
   color: #fff;
   display: flex;
@@ -96,5 +99,8 @@
   .sidebar-container {
     width: 100%;
     display: none;
+  }
+  .mobile-main-icon-container {
+    display: block;
   }
 }
