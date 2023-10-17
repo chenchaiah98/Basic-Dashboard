@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import {Route,Switch} from 'react-router-dom'
 import { PiCircleDashedFill, PiCurrencyInrDuotone } from "react-icons/pi";
 import { FaKey } from "react-icons/fa";
 import {
@@ -111,7 +111,7 @@ const SideBar = () => (
           <AiFillCodeSandboxSquare />
         </div>
         <div className="menu-text">
-          <Link to="/product">Product</Link>
+          <p>Product</p>
         </div>
         <div className="right-arrow">
           <AiOutlineRight />
@@ -122,7 +122,7 @@ const SideBar = () => (
           <LuContact2 />
         </div>
         <div className="menu-text">
-          <Link to="customer">Customer</Link>
+          <p>Customer</p>
         </div>
         <div className="right-arrow">
           <AiOutlineRight />
@@ -133,7 +133,7 @@ const SideBar = () => (
           <PiCurrencyInrDuotone />
         </div>
         <div className="menu-text">
-          <Link to="income">Income</Link>
+          <p>Income</p>
         </div>
         <div className="right-arrow">
           <AiOutlineRight />
@@ -155,7 +155,7 @@ const SideBar = () => (
           <MdOutlineLiveHelp />
         </div>
         <div className="menu-text">
-          <Link to="help">Help</Link>
+          <p>Help</p>
         </div>
         <div className="right-arrow">
           <AiOutlineRight />
