@@ -95,5 +95,6 @@
 @media screen and (max-width: 768px) {
   .sidebar-container {
     width: 100%;
+    display: none;
   }
 }
